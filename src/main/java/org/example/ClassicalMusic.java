@@ -7,15 +7,15 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
-@Component
+//@Component
 public class ClassicalMusic implements Music {
     private List<String> listSong = Arrays.asList("ClassicSong1", "ClassicSong2", "ClassicSong3");
 
-    private ClassicalMusic() {}
+//    private ClassicalMusic() {}
 
-    public static ClassicalMusic getClassicalMusic() {
-        return new ClassicalMusic();
-    }
+//    public static ClassicalMusic getClassicalMusic() {
+//        return new ClassicalMusic();
+//    }
 
     public void doMyInit() {
         System.out.println("Doing my initialization");
